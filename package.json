@@ -15,8 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "axios": "^0.21.4",
     "gatsby": "^3.13.0",
     "react": "^17.0.1",
+    "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "gatsby-plugin-postcss": "^4.13.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.11"
   }
 }
