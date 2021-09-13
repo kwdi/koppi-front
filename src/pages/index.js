@@ -4,7 +4,7 @@ import NavBar from '../components/navbar/NavBar';
 
 
 const IndexPage = () => (
-  <div class="bg-blue-100">
+  <div class="bg-blue-100 h-screen">
     <NavBar />
     <Short />
   </div>
