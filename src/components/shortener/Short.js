@@ -35,8 +35,7 @@ const [error, setError] = useState(false);
 
   return (
     //bg-gradient-to-r from-green-400 to-blue-500
-    <body class=" h-screen flex flex-col items-center mt-20">
-    <main>
+    <div class=" flex flex-col items-center mt-20">
       <title>Koppi.link</title>
       <div> 
       <form class="w-full max-w-sm" onSubmit={onSubmit}>
@@ -78,8 +77,7 @@ const [error, setError] = useState(false);
           </div>
           : <></>}
 
-    </main>
-    </body>
+    </div>
   )
 }
 
