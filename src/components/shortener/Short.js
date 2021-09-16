@@ -14,7 +14,7 @@ const [error, setError] = useState(false);
     try {
       const res = await axios.post('https://koppi.link/unreg', {
       url: input
-    });
+    },{ withCredentials: true });
     setShow(true);
     setUrl(res.data.result);
   } catch(error){
