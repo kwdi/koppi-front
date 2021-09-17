@@ -14,7 +14,8 @@ const login = async (email, password) => {
     const res = await axios.post('https://koppi.link/auth/login',  {
     email: email,
     password: password
-  },{ withCredentials: true });
+  },//{ withCredentials: true }
+  );
   //console.log(res);
 } catch(error){
   console.log(error);
